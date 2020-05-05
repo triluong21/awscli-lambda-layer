@@ -1,8 +1,8 @@
-# Create AWS CLI lambda layer.
+# This Service creates AWS CLI lambda layer.
 Python lambdas use this layer as an addendum to execute AWS CLI commands.
 
 ## Instructions:
-###### Verify needed toos:
+###### Verify needed tools:
 $ python --version
 Python 3.7.0
 
@@ -83,7 +83,8 @@ $ virtualenv --version
 
 ### Step 9: Test 
   Create a Lambda function using the same version of Python that was used for packaging AWS CLI.
-  
+  https://github.com/triluong21/lambda-exec-awscli
+
   After the function is created, in Designer, click on Layers, click Add layer and select the layer you've just created.
 
 
